@@ -10,8 +10,6 @@ orbit-live-like-config.json
 
 orbit-live-like-zones.orbitzones.json
 
-ORBIT and its required dependencies are not included.
-
 # Install
 
 Install ORBIT, SAIN, Waypoints and BigBrain.
