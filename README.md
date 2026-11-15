@@ -1,51 +1,37 @@
 # Live-Like ORBIT – Full Config + Routes
 
+<img width="400" height="400" alt="T7P8YXl8QYrdPDO20TU4jfbAMWVuuRnEwA3LzkIk" src="https://github.com/user-attachments/assets/dd46e05d-41b1-492b-813f-4f58e5b14a55" />
+
 A complete, ready-to-import preset that combines ORBIT behaviour settings with matching routes for more varied and believable raids.
 
 ## Information
 
 ### OVERVIEW
 
-The config and route pack are tuned as one setup for PvP traffic, looting, quest movement, extraction and personality-driven decisions.
+A ready-to-import ORBIT preset combining custom behaviour settings with coordinated zones and routes for more natural and varied raids.
 
-The download contains two preset files. It does not include ORBIT, SAIN or their dependencies, and it does not modify bot gear, ammunition, health, spawns or combat difficulty.
-
-> **Current version:** 1.1.0  
-> **Included:** Full ORBIT config + 13-map route pack
+It is designed to create believable PvP movement while balancing questing, looting, extraction, personalities and floor-aware PMC routing across supported maps.
 
 
 ### INSTALLATION
 
-**Before installing**
+-Extract the downloaded .zip file directly into your main SPT installation folder.
 
-1. Install ORBIT 2.0 and all of its required dependencies.
-2. Apply the recommended SAIN settings listed on the ORBIT mod page.
-3. Extract the downloaded ZIP anywhere. It contains:
+-Start the SPT Server.
 
-   - `orbit-live-like-config-x.x.x.json`
-   - `orbit-live-like-zones-x.x.x.orbitzones.json`
+-Open the ORBIT web interface: https://127.0.0.1:6969/orbit
 
-**Importing the preset**
+-Go to the Presets tab.
 
-1. Start the SPT server.
-2. Launch the game and wait until you reach the main menu.
-3. Open the ORBIT web interface through **F12 → Open web config UI**, or open `https://127.0.0.1:6969/orbit` in your browser.
-4. Optional but recommended: create backups before importing:
+-Find Live-like ORBIT Preset and click Use Preset.
 
-   - On the ORBIT Overview page, use **Generate export** and download your current config.
-   - Open **Zone editor → Share zone packs**, select **All maps**, generate a pack and download it.
+-Select both: Config + Zones
 
-5. On the ORBIT Overview page, click **Import a config (.json)** and select `orbit-live-like-config-x.x.x.json`.
-6. Open **Zone editor**, scroll down to **Share zone packs**, click **Choose a pack file (.json)** and select `orbit-live-like-zones-x.x.x.orbitzones.json`.
-7. Both imports will appear as unsaved changes. Click the global **Save** button in the top-right corner of the ORBIT page.
-8. The preset takes effect from the next raid. The two files can be imported in either order.
+-Click Use Preset again to apply the preset.
 
+-Press the Save button in the top right corner.
 
-### UNINSTALLATION
-
-Import the config and all-map zone backups you made before installation, click **Save**, and start a new raid.
-
-Without backups, use **Reset page** in every ORBIT config section and **Reset map** for each map. Save the changes and start a new raid.
+-Everything is now configured and ready to use.
 
 
 ### DETAILED CHANGES
@@ -77,7 +63,7 @@ Ghost movement, looting and simulated fights remain enabled. Sleep and wake beha
 ### CREDITS & SUPPORT
 
 
-[ORBIT 2.0](https://sp-mod.com/mod/2706/orbit-20) was created by **Chazut**. Special thanks to Chazut for permission, technical explanations and feedback that helped improve the zone variation and same-floor behaviour in version 1.1.0.
+[ORBIT] was created by **Chazut**. Special thanks to Chazut for permission, technical explanations and feedback that helped me a loot.
 
 Feedback is welcome. When reporting unexpected bot movement, please include:
 
